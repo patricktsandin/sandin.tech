@@ -1,0 +1,16 @@
+* {
+  background-color: rgb(48, 56, 65);
+  color: rgb(216,222,233);
+  font-family: 'Source Code Pro', mono space;
+}
+
+body {
+  width: min(90%, 50em);
+  margin: auto;
+}
+
+header {
+  text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
