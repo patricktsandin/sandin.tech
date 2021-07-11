@@ -13,4 +13,26 @@ header {
   text-align: center;
 }
 
+nav {
+  text-align: center;
+}
+
+footer {
+  padding: 2em;
+  text-align: center;
+  font-size: smaller;
+  opacity: 0.5;
+}
+
+aside {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: min(15em, 90%);
+  height: 100%;
+  z-index: 2;
+  box-shadow: .25em 0em .25em 0 rgba(0, 0, 0, 1);
+  visibility: hidden;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
